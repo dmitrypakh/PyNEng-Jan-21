@@ -11,4 +11,5 @@
 
 nat = "ip nat inside source list ACL interface FastEthernet0/1 overload"
 
+nat_f=nat.replace('Fast','Gigabit')
 
