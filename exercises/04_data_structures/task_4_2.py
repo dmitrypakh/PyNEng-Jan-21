@@ -10,4 +10,4 @@
 
 mac = "AAAA:BBBB:CCCC"
 
-mac_f=mac.replace(':','.')
+mac=mac.replace(':','.')
