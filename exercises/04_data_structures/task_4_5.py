@@ -18,3 +18,13 @@ c1=set(command1.split()[-1].split(','))
 c2=set(command2.split()[-1].split(','))
 result=list(c1&c2)
 
+or
+
+command1=command1.split()[-1].split(',')
+command2=command2.split()[-1].split(',') 
+common=list(set(command1).intersection(set(command2)))
+
+
+
+
+
